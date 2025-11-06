@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Kiểm tra số hoàn hảo -->
+    <item
+        android:id="@+id/nav_perfect_number"
+        android:icon="@drawable/baseline_check_24"
+        android:title="Số hoàn hảo" />
+
+    <!-- Giải phương trình bậc 1 -->
+    <item
+        android:id="@+id/nav_solve_equation"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="Giải phương trình" />
+
+    <!-- Quản lý máy tính -->
+    <item
+        android:id="@+id/nav_manage_computers"
+        android:icon="@drawable/baseline_computer_24"
+        android:title="Quản lý máy tính" />
+
+</menu>
