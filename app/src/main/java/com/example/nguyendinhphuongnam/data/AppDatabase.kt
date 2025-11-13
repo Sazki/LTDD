@@ -1,14 +1,14 @@
-package com.example.a23da040_nguyendinhphuongnam.data
+package com.example.nguyendinhphuongnam.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.a23da040_nguyendinhphuongnam.model.MayTinh
+import com.example.nguyendinhphuongnam.model.SinhVien
 
-@Database(entities = [MayTinh::class], version = 1, exportSchema = false)
+@Database(entities = [SinhVien::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
-    abstract fun computerDao(): ComputerDao
+    abstract fun studentDao(): StudentDao
 
     companion object {
         @Volatile
@@ -19,7 +19,7 @@ abstract class AppDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
-                    "computers_database"
+                    "23da040"
                 ).fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance

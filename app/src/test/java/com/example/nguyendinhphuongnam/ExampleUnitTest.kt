@@ -1,4 +1,4 @@
-package com.example.a23da040_nguyendinhphuongnam
+package com.example.nguyendinhphuongnam
 
 import org.junit.Test
 

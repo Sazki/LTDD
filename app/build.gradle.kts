@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a23da040_nguyendinhphuongnam"
+    namespace = "com.example.nguyendinhphuongnam"
     compileSdk = 35
 
     defaultConfig {

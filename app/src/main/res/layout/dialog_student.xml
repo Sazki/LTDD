@@ -7,38 +7,30 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/etMaMayTinh"
+        android:id="@+id/etMaSV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mã máy" />
+        android:hint="Mã sinh viên" />
 
     <EditText
-        android:id="@+id/etTenMayTinh"
+        android:id="@+id/etTenSV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tên máy"
+        android:hint="Tên sinh viên"
         android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/etLoaiMayTinh"
+        android:id="@+id/etLop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Loại máy"
+        android:hint="Lớp"
         android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/etSoLuong"
+        android:id="@+id/etDiemTB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Số lượng"
-        android:inputType="number"
-        android:layout_marginTop="8dp" />
-
-    <EditText
-        android:id="@+id/etDonGia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Đơn giá"
+        android:hint="Điểm trung bình"
         android:inputType="numberDecimal"
         android:layout_marginTop="8dp" />
 </LinearLayout>

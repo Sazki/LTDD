@@ -1,10 +1,10 @@
-package com.example.a23da040_nguyendinhphuongnam
+package com.example.nguyendinhphuongnam
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
+import com.example.nguyendinhphuongnam.ManageStudentsFragment
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.nav_perfect_number -> replaceFragment(PerfectNumberFragment()) // Kiểm tra số hoàn hảo
                 R.id.nav_solve_equation -> replaceFragment(SolveEquationFragment()) // Giải phương trình bậc 1
-                R.id.nav_manage_computers -> replaceFragment(ManageComputersFragment()) // Quản lý máy tính
+                R.id.nav_manage_students -> replaceFragment(ManageStudentsFragment()) // Quản lý máy tính
             }
             true
         }

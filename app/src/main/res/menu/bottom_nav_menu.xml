@@ -15,8 +15,8 @@
 
     <!-- Quản lý máy tính -->
     <item
-        android:id="@+id/nav_manage_computers"
+        android:id="@+id/nav_manage_students"
         android:icon="@drawable/baseline_computer_24"
-        android:title="Quản lý máy tính" />
+        android:title="Quản lý Sinh Viên" />
 
 </menu>

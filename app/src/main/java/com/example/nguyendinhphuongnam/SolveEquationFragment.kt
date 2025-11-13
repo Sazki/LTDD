@@ -1,4 +1,4 @@
-package com.example.a23da040_nguyendinhphuongnam
+package com.example.nguyendinhphuongnam
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.SavedStateViewModelFactory
-import com.example.a23da040_nguyendinhphuongnam.viewmodel.SolveEquationViewModel
+import com.example.nguyendinhphuongnam.viewmodel.SolveEquationViewModel
 
 class SolveEquationFragment : Fragment() {
 

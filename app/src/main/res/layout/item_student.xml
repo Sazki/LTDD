@@ -15,23 +15,22 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tvTenMay"
+            android:id="@+id/tvTenSV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tên máy: "
+            android:text="Tên SV: "
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvLoaiMay"
+            android:id="@+id/tvLop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Loại máy: " />
+            android:text="Lớp: " />
 
         <TextView
-            android:id="@+id/tvThanhTien"
-            android:layout_width="wrap_content"
+            android:id="@+id/tvDiemTB"  android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thành tiền: " />
+            android:text="Điểm TB: " />
 
         <LinearLayout
             android:layout_width="match_parent"

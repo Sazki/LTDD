@@ -1,4 +1,4 @@
-package com.example.a23da040_nguyendinhphuongnam
+package com.example.nguyendinhphuongnam
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.example.a23da040_nguyendinhphuongnam.databinding.FragmentPerfectNumberBinding
-import com.example.a23da040_nguyendinhphuongnam.viewmodel.PerfectNumberViewModel
+import com.example.nguyendinhphuongnam.databinding.FragmentPerfectNumberBinding
+import com.example.nguyendinhphuongnam.viewmodel.PerfectNumberViewModel
 
 class PerfectNumberFragment : Fragment() {
 
