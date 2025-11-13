@@ -3,4 +3,6 @@
     <string name="hint_enter_number">Nhập số cần kiểm tra</string>
     <string name="btn_check">Kiểm tra</string>
     <string name="add_course">Thêm học phần</string>
+    <string name="navigation_drawer_open">Mở menu</string>
+    <string name="navigation_drawer_close">Đóng menu</string>
 </resources>
